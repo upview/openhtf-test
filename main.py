@@ -38,6 +38,5 @@ def main(serial_number: str):
     # with TofuPilot(test):
     test.execute(lambda: serial_number)
 
-
 if __name__ == "__main__":
     main(f"PCBA01{random.randint(100, 999)}")
